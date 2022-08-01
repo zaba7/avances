@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protecto-Final</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="./Info-Trabajo-Final/assets/imagenes/logo.svg">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="monitor_ext" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="monitor_int" fill="#B1D5E4"></rect>
+                <polygon points="55 45 , 95 45,115 62,30 62" fill="#3F6797" id="teclado_ext"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="teclado_int"></polygon>
+            </svg>
+        </a>
+        <ul class="lista">
+            <li class="item">
+                <a class="item_link" href="./historia.html">HISTORIA</a>
+            </li>
+            <li class="item">
+                <a class="item_link" href="./juego.html">JUGUEMOS</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="titulo_principal" >JUGUEMOS UN POCO</h1>
+    </header>
+    <main>
+        <h2>Armemos un rompecabezas y veamos que imagen es</h2>
+    <section class="juego">
+        <div class="cajas">
+            <div id="cajasoltar">
+                <p class="p1">Arrastre y suelte la imagen aqui</p>
+            </div>
+            <div id="cajasoltar2">
+                <p class="p2">Arrastre y suelte la imagen aqui</p>
+            </div>
+            <div id="cajasoltar3">
+                <p class="p3">Arrastre y suelte la imagen aqui</p>
+            </div>
+        </div>
+        <div id="cajaimagenes">
+            <img id="imagen1" src="./Info-Trabajo-Final/assets/imagenes/rompe2.png" alt="">
+            <img id="imagen2" src="./Info-Trabajo-Final/assets/imagenes/rompe1.png" alt="">
+            <img id="imagen3" src="./Info-Trabajo-Final/assets/imagenes/rompe3.png" alt="">
+        </div>
+    </section>
+    <button onclick="reinicio()" class="botonesVideo2">Reiniciar</button>
+    </main>
+    <script src="java.js"></script>    
+</body>
+</html>
